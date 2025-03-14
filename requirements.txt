@@ -2,7 +2,7 @@ tensorflow
 numpy
 fpdf
 openai
-from cryptography.fernet import Fernet
+Fernet
 os
 subprocess
 time
