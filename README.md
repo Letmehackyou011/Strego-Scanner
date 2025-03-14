@@ -30,12 +30,12 @@ pip install -r requirements.txt
 
 ## Usage
 ```sh
-python scanner.py
+python Strego.py
 ```
 Follow the prompts to enter the target domain or IP.
 
 ## Example Output
-- Scans the target with 100+ tools
+- Scans the target with 50+ tools
 - Uses AI to analyze risk levels
 - Saves structured reports in JSON & HTML format
 
