@@ -1,7 +1,6 @@
 import os
 import subprocess
 import time
-import openai
 from cryptography.fernet import Fernet
 
 api_key = os.getenv("OPENAI_API_KEY")
