@@ -1,0 +1,8 @@
+tensorflow
+numpy
+fpdf
+openai
+from cryptography.fernet import Fernet
+os
+subprocess
+time
