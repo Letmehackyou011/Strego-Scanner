@@ -1,14 +1,8 @@
 import os
 import subprocess
 import time
+import openai
 from cryptography.fernet import Fernet
-
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    api_key = input("Enter your OpenAI API key If available: ").strip()
-
-openai.api_key = api_key
-
 def generate_key():
     key = Fernet.generate_key()
     with open("secret.key", "wb") as key_file:
